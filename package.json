@@ -1,0 +1,30 @@
+{
+  "name": "baaahs.org",
+  "version": "2.0.0",
+  "description": "big-ass amazingly awesome homosexual sheep",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baaahs/baaahs.org.git"
+  },
+  "author": "BAAAHS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baaahs/baaahs.org/issues"
+  },
+  "homepage": "https://github.com/baaahs/baaahs.org#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1"
+  }
+}

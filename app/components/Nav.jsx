@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'nav.scss';
 
 function Nav() {
   return (

@@ -27,8 +27,11 @@ coverage
 build/Release
 
 # JS Bundle
-public/bundle.js
-public/bundle.js.map
+public/baaahs.bundle.js
+public/baaahs.bundle.js.map
+
+# CSS Bundle
+public/baaahs.lolcats.css
 
 # Dependency directories
 node_modules

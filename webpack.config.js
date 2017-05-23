@@ -7,7 +7,7 @@ const extractSass = new ExtractTextPlugin({
 
 const BUILD_DIR = path.resolve(__dirname, './public');
 const APP_DIR = path.resolve(__dirname, './app');
-const SCSS_DIR = path.resolve(__dirname, './scss');
+const SASS_DIR = path.resolve(__dirname, './sass');
 
 const config = {
   entry: [APP_DIR + '/index.jsx'],
@@ -16,7 +16,7 @@ const config = {
     filename: 'baaahs.bundle.js'
   },
   resolve: {
-    modules: [path.resolve(__dirname, './scss/components/'), 'node_modules']
+    modules: [path.resolve(__dirname, './sass/components/'), 'node_modules']
   },
   module: {
     rules: [
@@ -31,7 +31,7 @@ const config = {
       },
       {
         test: /\.(sass|scss)$/,
-        include: SCSS_DIR,
+        include: SASS_DIR,
         use: extractSass.extract({
           use: ['css-loader', 'sass-loader'],
           fallback: 'style-loader'
